@@ -68,3 +68,25 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+<!-- 制作手順 -->
+<!-- Semantic UI React パッケージをインストール -->
+npm install semantic-ui-react semantic-ui-css
+import 'semantic-ui-css/semantic.min.css' <!-- index.jsに貼り付け -->
+<!-- Google Fonts からフォントをインポート  -->
+https://fonts.google.com/ 
+<!-- 4 つの CRUD 操作 (Create - 生成、Read - 読み取り、Update - 更新、Delete - 削除) に対応するコンポーネントを作成 -->
+<!-- Mock API を使用する必要があります。この API は作成したデータを偽のサーバーへ送信する -->
+https://mockapi.io/ 
+<!-- Axios を使って API リクエストを Mock API へ送信する -->
+npm i axios
+<!-- React Router パッケージを用いて、ユーザーをさまざまなページへ案内する必要がある -->
+npm i react-router-dom@5
+
+
+
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
